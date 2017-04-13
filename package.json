@@ -1,0 +1,26 @@
+{
+  "name": "workflow-with-gulp",
+  "version": "1.0.0",
+  "description": "My Gulp site",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iVanVitali/workflow-with-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "workflow"
+  ],
+  "author": "Ivan Vitali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iVanVitali/workflow-with-gulp/issues"
+  },
+  "homepage": "https://github.com/iVanVitali/workflow-with-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
