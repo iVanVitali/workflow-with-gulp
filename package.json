@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/iVanVitali/workflow-with-gulp#readme",
   "devDependencies": {
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.2.0",
     "gulp-newer": "^1.3.0"

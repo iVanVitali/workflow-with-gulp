@@ -8,7 +8,8 @@
 var
     gulp = require('gulp'),
     newer = require('gulp-newer'),
-    imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin'),
+    del = require('del');
 
 // Ubicacion de los archivos
 
@@ -20,6 +21,13 @@ var
         in: source + 'images/*.*',
         out: dest + 'images/'
     };
+
+// limpiar la carpeta build
+gulp.task('clean', function () {
+    del([
+       dest + '*'
+    ]);
+});
 
 // procesar imagenes
 gulp.task('images', function () {
