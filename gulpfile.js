@@ -38,6 +38,8 @@ gulp.task('images', function () {
 });
 
 // tarea por defecto
-gulp.task('default', function () {
+gulp.task('default',['images'], function () {
 
+    // detectar cambio en la carpeta images
+    gulp.watch(images.in, ['images']);
 });
